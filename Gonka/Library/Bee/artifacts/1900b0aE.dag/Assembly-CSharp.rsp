@@ -122,6 +122,12 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"C:/Users/Кристиан/Gonka/Library/PackageCache/com.unity.burst@1.7.0/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
+-r:"C:/Users/Кристиан/Gonka/Library/PackageCache/com.unity.burst@1.7.0/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
+-r:"C:/Users/Кристиан/Gonka/Library/PackageCache/com.unity.burst@1.7.0/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
+-r:"C:/Users/Кристиан/Gonka/Library/PackageCache/com.unity.burst@1.7.0/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
+-r:"C:/Users/Кристиан/Gonka/Library/PackageCache/com.unity.burst@1.7.0/Unity.Burst.Unsafe.dll"
+-r:"C:/Users/Кристиан/Gonka/Library/PackageCache/com.unity.visualscripting@1.7.5/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"D:/unity/Unity Hub/Editor/2022.1.0b16/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"D:/unity/Unity Hub/Editor/2022.1.0b16/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"D:/unity/Unity Hub/Editor/2022.1.0b16/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
@@ -328,12 +334,6 @@
 -r:"D:/unity/Unity Hub/Editor/2022.1.0b16/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
 -r:"D:/unity/Unity Hub/Editor/2022.1.0b16/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
 -r:"D:/unity/Unity Hub/Editor/2022.1.0b16/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
--r:"E:/Документы/neq github/race/Gonka/Library/PackageCache/com.unity.burst@1.7.0/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
--r:"E:/Документы/neq github/race/Gonka/Library/PackageCache/com.unity.burst@1.7.0/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
--r:"E:/Документы/neq github/race/Gonka/Library/PackageCache/com.unity.burst@1.7.0/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
--r:"E:/Документы/neq github/race/Gonka/Library/PackageCache/com.unity.burst@1.7.0/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
--r:"E:/Документы/neq github/race/Gonka/Library/PackageCache/com.unity.burst@1.7.0/Unity.Burst.Unsafe.dll"
--r:"E:/Документы/neq github/race/Gonka/Library/PackageCache/com.unity.visualscripting@1.7.5/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/PsdPlugin.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Animation.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Animation.Runtime.ref.dll"
