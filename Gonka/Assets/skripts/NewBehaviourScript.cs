@@ -132,6 +132,7 @@ using System.Collections;
 
 public class NewBehaviourScript : MonoBehaviour
 {
+    public paused paused;
     public float fuel = 1;
     public float fuelconsumption = 0.1f;
     public Rigidbody2D carRigidbody;
@@ -148,9 +149,13 @@ public class NewBehaviourScript : MonoBehaviour
     }
     void Update()
     {
-
         movement = Input.GetAxis("Horizontal");
         image.fillAmount = fuel;
+        if (fuel <= 0)
+        {
+            paused.gg = 2;
+        }
+
     }
     private void FixedUpdate()
     {
